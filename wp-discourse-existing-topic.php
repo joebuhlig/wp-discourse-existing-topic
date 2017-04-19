@@ -62,6 +62,7 @@ function discourse_existing_topic_save_post_class_meta() {
   $new_discourse_permalink_value = ( isset( $_POST['discourse-permalink'] ) ? $_POST['discourse-permalink'] : '' );
 
   update_discourse_existing_topic_meta($post->ID, 'discourse_permalink', $new_discourse_permalink_value);
+  update_discourse_existing_topic_meta($post->ID, 'publish_to_discourse', true);
 }
 
 function update_discourse_existing_topic_meta($post_id, $meta_key, $new_meta_value){
@@ -84,4 +85,4 @@ function update_discourse_existing_topic_meta($post_id, $meta_key, $new_meta_val
 /* Fire our meta box setup function on the post editor screen. */
 add_action( 'load-post.php', 'discourse_existing_topic_post_meta_boxes_setup' );
 add_action( 'load-post-new.php', 'discourse_existing_topic_post_meta_boxes_setup' );
-add_action('save_post', 'discourse_existing_topic_save_post_class_meta');
+add_action('save_post', 'discourse_existing_topic_save_post_class_meta', 11);
