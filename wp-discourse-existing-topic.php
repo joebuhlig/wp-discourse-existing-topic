@@ -5,7 +5,7 @@
  * Plugin URI: https://github.com/joebuhlig/wp-discourse-existing-topic
  * GitHub Plugin URI: https://github.com/joebuhlig/wp-discourse-existing-topic
  * Description: This plugin adds the ability to embed an existing topic into a post.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Joe Buhlig
  * Author URI: https://joebuhlig.com
  * License: GPL2
