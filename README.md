@@ -1,0 +1,1 @@
+This WordPress plugin adds the ability to manually enter the permalink for embedding comments from a Discourse topic.
