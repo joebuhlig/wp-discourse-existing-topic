@@ -2,7 +2,8 @@
 
 /**
  * Plugin Name: WP Discourse Existing Topic
- * Plugin URI: http://bookworm.fm
+ * Plugin URI: https://github.com/joebuhlig/wp-discourse-existing-topic
+ * GitHub Plugin URI: https://github.com/joebuhlig/wp-discourse-existing-topic
  * Description: This plugin adds the ability to embed an existing topic into a post.
  * Version: 1.0.0
  * Author: Joe Buhlig
